@@ -12,6 +12,8 @@
 		3959B0861C72CF990034C823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3959B0841C72CF990034C823 /* Main.storyboard */; };
 		3959B0881C72CF990034C823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3959B0871C72CF990034C823 /* Assets.xcassets */; };
 		3959B08B1C72CF990034C823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3959B0891C72CF990034C823 /* LaunchScreen.storyboard */; };
+		3959B0951C72CFF30034C823 /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959B0941C72CFF30034C823 /* Solver.swift */; };
+		3959B0991C72D0E40034C823 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959B0981C72D0E40034C823 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3959B0871C72CF990034C823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3959B08A1C72CF990034C823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3959B08C1C72CF990034C823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3959B0941C72CFF30034C823 /* Solver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Solver.swift; path = ../Solver.swift; sourceTree = "<group>"; };
+		3959B0981C72D0E40034C823 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		3959B07F1C72CF990034C823 /* NQueensVisualize */ = {
 			isa = PBXGroup;
 			children = (
+				3959B0941C72CFF30034C823 /* Solver.swift */,
 				3959B0801C72CF990034C823 /* AppDelegate.swift */,
 				3959B0821C72CF990034C823 /* ViewController.swift */,
 				3959B0841C72CF990034C823 /* Main.storyboard */,
 				3959B0871C72CF990034C823 /* Assets.xcassets */,
 				3959B0891C72CF990034C823 /* LaunchScreen.storyboard */,
 				3959B08C1C72CF990034C823 /* Info.plist */,
+				3959B0981C72D0E40034C823 /* BoardView.swift */,
 			);
 			path = NQueensVisualize;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3959B0831C72CF990034C823 /* ViewController.swift in Sources */,
+				3959B0991C72D0E40034C823 /* BoardView.swift in Sources */,
 				3959B0811C72CF990034C823 /* AppDelegate.swift in Sources */,
+				3959B0951C72CFF30034C823 /* Solver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
